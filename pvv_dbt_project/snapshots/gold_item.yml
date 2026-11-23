@@ -1,0 +1,15 @@
+
+version: 2
+
+snapshots:
+  - name: gold_items_snapshot
+    relation: ref('source_gold_items')
+    config:
+      schema: snapshots
+      database: dbt_dev
+      unique_key: id
+      strategy: check
+      check_cols:
+        - name
+        - category
+      dbt_valid_to_current: "to_date('9999-12-31')"
