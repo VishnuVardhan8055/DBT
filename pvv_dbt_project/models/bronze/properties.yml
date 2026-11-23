@@ -1,9 +1,26 @@
-# version: 2
+version: 2
 
-# models:
-#   - name: bronze_sales
-#     config:
-#     materialized: view
+models:
+  - name: bronze_sales
+    config:
+      materialized: table
 
-  
-  
+  - name: bronze_date
+    config:
+      materialized: view
+
+  - name: bronze_store
+    config:
+      materialized: view
+
+  - name: bronze_customer
+    config:
+      materialized: view
+
+  - name: bronze_product
+    config:
+      materialized: view
+
+  - name: bronze_return
+    config:
+      materialized: view
