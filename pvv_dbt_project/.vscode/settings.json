@@ -1,0 +1,8 @@
+{
+
+  "python.defaultInterpreterPath": "/Users/vishnu/DBT/.venv/bin/python",
+  "dbt.dbtPath": "/Users/vishnu/DBT/.venv/bin/dbt",
+  "dbt.pythonPath": "/Users/vishnu/DBT/.venv/bin/python",
+  "dbt.allowAutoInstall": false
+
+}

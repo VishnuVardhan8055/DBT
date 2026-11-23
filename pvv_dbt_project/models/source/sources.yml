@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: source
+    database: dbt_dev
+    schema: source
+    description: Raw data from the Jaffle Shop transactional system.
+    tables:
+    - name : fact_sales
+    - name : fact_returns
+    - name : dim_customer
+    - name : dim_date
+    - name : dim_product
+    - name : dim_store
+
+
